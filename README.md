@@ -1,12 +1,22 @@
-# PasswordStrengthTester
 
-# Project Goal:
-A simple C++ program to check password strength by validating:
-- Minimum length of 8 characters
-- At least one number
-- At least one special character
+# Password Strength Tester
 
-# How I Thought
+## 1. Project Title & Goal
+A C++ program that checks if passwords are strong based on length, numbers, and special characters.
+
+## 2. Setup Instructions
+
+g++ main_v1.cpp -o password_checker    # Version 1
+./password_checker
+
+g++ main_v2.cpp -o password_checker    # Version 2
+./password_checker
+
+g++ main_v3.cpp -o password_checker    # Version 3 (runtime input)
+./password_checker
+
+
+## How I Thought
 
 I developed this project in three steps:
 
@@ -28,11 +38,23 @@ Allowed users to enter passwords during program execution.
 
 Makes the program interactive and more practical.
 
-The hardest part was checking for special characters without using any advanced functions, which I solved by comparing each character to a predefined list.
+The hardest part was checking for special characters, which I solved by comparing each character to a predefined string of specail characters.
 
 I got stuck at the special character part.
 
-# Future Improvements
+## Output Screenshots
+
+Version 1 (Less Optimized):
+![main output](PasswordStrengthTester\screenshot\main_output.png)
+
+
+Version 2 (Optimized):
+![main2 output](PasswordStrengthTester\screenshot\main2_output.png)
+
+Version 3 (Runtime Input):
+![main output](PasswordStrengthTester\screenshot\main3_output.png)
+
+## Future Improvements
 
 Use regex for cleaner password validation
 
