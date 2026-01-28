@@ -38,21 +38,23 @@ Allowed users to enter passwords during program execution.
 
 Makes the program interactive and more practical.
 
-The hardest part was checking for special characters, which I solved by comparing each character to a predefined string of specail characters.
+I found this problem easy i do not had as such hardest path.
+
+The hardest part was checking for special characters and optimization, which I solved by comparing each character to a predefined string of specail characters.
 
 I got stuck at the special character part.
 
 ## Output Screenshots
 
 Version 1 (Less Optimized):
-![main output](PasswordStrengthTester\screenshot\version1_output.png)
+![main output](screenshot/version1_output.png)
 
 
 Version 2 (Optimized):
-![main output](PasswordStrengthTester\screenshot\version2_output.png)
+![main output](screenshot/version2_output.png)
 
 Version 3 (Runtime Input):
-![main output](PasswordStrengthTester\screenshot\version3_output.png)
+![main output](screenshot/version3_output.png)
 
 ## Future Improvements
 

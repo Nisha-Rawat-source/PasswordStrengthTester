@@ -1,5 +1,4 @@
-//this file contain more optimized logic then the main.cpp logic
-//in the given code i am not passing the password at run time 
+//in the given code i am passing the password at run time 
 
 #include <iostream>
 #include <vector>
@@ -49,17 +48,31 @@ bool validate_password(string password) {
 
 int main() {
 
-    //these are the password vector we need to check
-    vector<string> passwords = {"abc", "123456", "Pass@123", "Admin"};
+    vector<string> passwords;
 
-    cout << "Password complexity test results"<<endl;
+    //no. of times user want to give password
+    int n;
 
-    //this is a for each loop sending password string one by one to validate_password function
+    cout << "Enter number of passwords: ";
+    //taking input from user for no. of passwords
+    cin >> n;
+
+    //taking the input(password) one by one
+    for (int i = 0; i < n; i++) {
+        string pwd;
+        cout << "Enter password " << i + 1 << ": ";
+        cin >> pwd;
+        passwords.push_back(pwd);
+    }
+
+    cout << "Password test results" << endl;
+
+    //calling validate_password function of each string and printing result
     for (string pwd : passwords) {
         if (validate_password(pwd)) {
-            cout << pwd << "= PASS"<<endl;
+            cout << pwd << ": PASS" << endl;
         } else {
-            cout << pwd << "= FAIL"<<endl;
+            cout << pwd << ": FAIL" << endl;
         }
     }
 
