@@ -45,7 +45,7 @@ I got stuck at the special character part.
 ## Output Screenshots
 
 Version 1 (Less Optimized):
-![main output](PasswordStrengthTester\screenshot\version1_output.png)
+![main output](C:\Users\nisha\Desktop\Password Strength Tester\PasswordStrengthTester\screenshot\version1_output.png)
 
 
 Version 2 (Optimized):
