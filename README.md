@@ -45,14 +45,14 @@ I got stuck at the special character part.
 ## Output Screenshots
 
 Version 1 (Less Optimized):
-![main output](PasswordStrengthTester\screenshot\main_output.png)
+![main output](PasswordStrengthTester\screenshot\version1_output.png)
 
 
 Version 2 (Optimized):
-![main2 output](PasswordStrengthTester\screenshot\main2_output.png)
+![main output](PasswordStrengthTester\screenshot\version2_output.png)
 
 Version 3 (Runtime Input):
-![main output](PasswordStrengthTester\screenshot\main3_output.png)
+![main output](PasswordStrengthTester\screenshot\version3_output.png)
 
 ## Future Improvements
 
