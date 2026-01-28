@@ -49,7 +49,6 @@ I got stuck at the special character part.
 Version 1 (Less Optimized):
 ![main output](screenshot/version1_output.png)
 
-
 Version 2 (Optimized):
 ![main output](screenshot/version2_output.png)
 
